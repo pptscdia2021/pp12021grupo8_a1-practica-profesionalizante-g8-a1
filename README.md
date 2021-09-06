@@ -21,3 +21,10 @@ Crear un programa en **Python** que tendrá 3 o 4 funciones:
 
 Usaremos Visual Studio Code, con la extensión de Python para hacer la práctica. El equipo crea un Project en Github y agrega 2 al menos 2 issue por cada tarea a realizar. Crear una rama por cada miembro. El primer integrante del grupo, creará el repositorio, creará un programa en Python con la función suma, y el main y subirá al repo el código producido
 
+
+**Alumnos:**
+
+ - Karina Alem
+ - Julieta Natalia Hunicken
+ - Marcos Nanini
+ - Eric Eduardo Rodriguez
