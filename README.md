@@ -26,5 +26,8 @@ Usaremos Visual Studio Code, con la extensión de Python para hacer la práctica
 
  - Karina Alem
  - Julieta Natalia Hunicken
- - Marcos Nanini
+ - Marcos Nanini 
  - Eric Eduardo Rodriguez
+
+branch:
+naninimarcos-patch-1
