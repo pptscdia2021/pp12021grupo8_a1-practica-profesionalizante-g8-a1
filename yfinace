@@ -1,0 +1,5 @@
+#instalar la libreria yfinance :)
+import yfinance as yf
+
+##elegir el sticker del que quiero info (en mi caso Amazon, pueden ser varios), delimitar el periodo de tiempo de los datos,(se puede definir la periodicidad en que va a descargar los datos)
+precios = yf.download('AMZN', start = '2020-09-29', end = '2021-09-25')
