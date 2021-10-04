@@ -47,4 +47,4 @@ for i in Symbols:
 stock_final.head()     
 
 #hasta este paso solo cree la tabla de cotizaciones de las acciones para luego poder trabajar con ellas
-  
+  stock_final.to_csv('data_stockfinal.csv')
