@@ -44,7 +44,26 @@ for fila in tabla.find_all("tr"):
     nroFila=nroFila+1
 
 # Imprimo el nombre de la accion a cual pertenece el precio maximo
-ind = price.index(max(price))
-print("La accion a quien le corresponde el precio maximo es: ",name[ind])
+indM = price.index(max(price))
+indN = price.index(min(price))
+print("La accion a quien le corresponde el precio maximo es: ",name[indM])
 # imprimo el precio maximo
 print("precio maximo: ", max(price))
+
+print("La accion a quien le corresponde el precio minimo es: ",name[indN])
+print("precio maximo: ", min(price))
+
+# Sobreescribimos el csv
+
+import csv
+ 
+myData = [["Accion", "Precio minomo del dia", "Precio Maximo del dia"],
+          [name[indN], min(price), ' '],
+          [name[indM], ' ', max(price)]]
+ 
+myFile = open('Segundo_Practico/accDelDia.csv', 'w')
+with myFile:
+    writer = csv.writer(myFile)
+    writer.writerows(myData)
+     
+print("Writing complete")
