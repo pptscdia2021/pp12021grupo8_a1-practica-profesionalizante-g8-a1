@@ -55,15 +55,17 @@ print("precio maximo: ", min(price))
 
 # Sobreescribimos el csv
 
-import csv
- 
-myData = [["Accion", "Precio minomo del dia", "Precio Maximo del dia"],
-          [name[indN], min(price), ' '],
-          [name[indM], ' ', max(price)]]
- 
+
+
+listDetalle = [["Accion", "Precio minimo del dia", "Precio Maximo del dia"], [name[indN], min(price), ''], [name[indM], '', max(price)]]
+
+
 myFile = open('Segundo_Practico/accDelDia.csv', 'w')
-with myFile:
-    writer = csv.writer(myFile)
-    writer.writerows(myData)
-     
+
+for row in listDetalle:
+    for column in row:
+        myFile.write('%s;' % column)
+    myFile.write('\n')
+myFile.close()
+
 print("Writing complete")
