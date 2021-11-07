@@ -1,0 +1,1 @@
+Formatted_Date,Summary,Precip_Type,Temperature_C,Apparent_Temperature_C,Humidity,Wind_Speed_km_h,Wind_Bearing_degrees,Visibility_km,Loud_Cover,Pressure_millibars,Daily_Summary
